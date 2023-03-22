@@ -1,0 +1,19 @@
+.logout-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4e5b68;
+    border-radius: 4px;
+    padding: 12px;
+  }
+  
+  .logout-container:hover,
+  .logout-container:hover a {
+    background-color: #2e3338;
+    cursor: pointer;
+  }
+  
+  

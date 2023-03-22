@@ -1,0 +1,15 @@
+FROM node:alpine
+
+# Create app directory
+WORKDIR /usr/src/client
+
+# Copy app files and package.json
+COPY . /usr/src/client
+COPY package.json /usr/src/client
+
+# Install dependencies
+RUN npm install -g npm@9.6.2
+RUN npm install
+
+# Start the app
+CMD [ "npm", "start" ]

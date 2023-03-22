@@ -1,0 +1,15 @@
+FROM node:alpine
+
+# Create app directory
+WORKDIR /usr/src/server
+
+# Copy app files and package.json
+COPY . /usr/src/server/
+COPY package.json /usr/src/server/
+
+# Install dependencies
+RUN npm install -g npm@9.6.2
+RUN npm install
+
+# Start the app
+CMD [ "npm", "start" ]

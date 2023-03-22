@@ -1,0 +1,75 @@
+.user-admin {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-admin p {
+    margin: 5px;
+  }
+  
+  .user-admin button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .user-admin button:hover {
+    background-color: #d32f2f;
+  }
+
+  .login-req{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-req-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    width: 270px;
+  }
+
+  .title-admin{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .refresh-admin{
+    background-color: #4e5b68;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 10px;
+  }
+
+.refresh-admin:hover{
+    background-color: #3c4a55;
+}
